@@ -43,6 +43,17 @@
       "Managed / Operated By": "IT Department",
       "Owning Business": "Business 1",
       "Business Application Status": "Active"
+    },
+    {
+      "Business Application ID": "APP005",
+      "Name": "Application 5",
+      "Functional Description": "Another change Description for application 5",
+      "Portfolio": "Portfolio 1",
+      "Operational status": "Production",
+      "Vendor": "Vendor 3",
+      "Managed / Operated By": "IT Department",
+      "Owning Business": "Business 2",
+      "Business Application Status": "Active"
     }
   ],
   "assessmentProjects": []

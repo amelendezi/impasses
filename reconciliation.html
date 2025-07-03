@@ -18,11 +18,15 @@
             <div class="p-4 border border-gray-200 rounded-lg">
                 <h2 class="text-xl font-bold">Comparison</h2>
                 <div class="grid grid-cols-2 gap-4 mt-2">
-                    <div class="text-left">
+                    <div class="text-center">
                         <h3 class="text-lg font-semibold">New</h3>
                         <p id="new-applications-count" class="text-2xl"></p>
+                        <button id="add-all-new-btn" class="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Add All</button>
+                        <button id="ignore-all-new-btn" class="mt-2 ml-2 px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600">Ignore All</button>
+                        <p id="add-all-new-status" class="text-sm text-green-600 mt-1"></p>
+                        <p id="ignore-all-new-status" class="text-sm text-gray-500 mt-1"></p>
                     </div>
-                    <div class="text-right">
+                    <div class="text-center">
                         <h3 class="text-lg font-semibold">Conflicts</h3>
                         <p id="conflicts-count" class="text-2xl"></p>
                     </div>
@@ -32,6 +36,28 @@
                 <h2 class="text-xl font-bold">State Applications</h2>
                 <p id="state-count" class="text-3xl mt-2"></p>
             </div>
+        </div>
+    </div>
+    <div class="w-3/4 mx-auto mt-8 p-12 bg-white rounded-lg shadow-lg flex flex-col items-center text-center">
+        <h2 class="text-3xl font-bold mb-4">Conflicting Applications</h2>
+        <div class="w-full overflow-x-auto">
+            <table class="min-w-full bg-white border border-gray-300">
+                <thead>
+                    <tr>
+                        <th class="py-2 px-4 border-b">Application ID</th>
+                        <th class="py-2 px-4 border-b">Property</th>
+                        <th class="py-2 px-4 border-b">Uploaded Value</th>
+                        <th class="py-2 px-4 border-b">State Value</th>
+                        <th class="py-2 px-4 border-b" id="all-actions-header">
+                            <button id="update-all-btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded text-sm">Update All</button>
+                            <button id="ignore-all-btn" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-1 px-2 rounded text-sm ml-2">Ignore All</button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="conflicts-table-body">
+                    <!-- Conflict rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
         </div>
     </div>
     <script src="./reconciliation.js"></script>
