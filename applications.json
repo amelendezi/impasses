@@ -1,0 +1,222 @@
+[
+  {
+    "Business Application ID": "APP001",
+    "Name": "Application 1",
+    "Functional Description": "Description for application 1",
+    "Portfolio": "Portfolio 2",
+    "Operational status": "Development",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 2",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP002",
+    "Name": "Application 2",
+    "Functional Description": "Description for application 2",
+    "Portfolio": "Portfolio 3",
+    "Operational status": "Production",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 3",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP003",
+    "Name": "Application 3",
+    "Functional Description": "Description for application 3",
+    "Portfolio": "Portfolio 4",
+    "Operational status": "Development",
+    "Vendor": "Vendor 1",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 4",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP004",
+    "Name": "Application 4",
+    "Functional Description": "Description for application 4",
+    "Portfolio": "Portfolio 5",
+    "Operational status": "Production",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 1",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP005",
+    "Name": "Application 5",
+    "Functional Description": "Description for application 5",
+    "Portfolio": "Portfolio 1",
+    "Operational status": "Development",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 2",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP006",
+    "Name": "Application 6",
+    "Functional Description": "Description for application 6",
+    "Portfolio": "Portfolio 2",
+    "Operational status": "Production",
+    "Vendor": "Vendor 1",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 3",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP007",
+    "Name": "Application 7",
+    "Functional Description": "Description for application 7",
+    "Portfolio": "Portfolio 3",
+    "Operational status": "Development",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 4",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP008",
+    "Name": "Application 8",
+    "Functional Description": "Description for application 8",
+    "Portfolio": "Portfolio 4",
+    "Operational status": "Production",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 1",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP009",
+    "Name": "Application 9",
+    "Functional Description": "Description for application 9",
+    "Portfolio": "Portfolio 5",
+    "Operational status": "Development",
+    "Vendor": "Vendor 1",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 2",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP010",
+    "Name": "Application 10",
+    "Functional Description": "Description for application 10",
+    "Portfolio": "Portfolio 1",
+    "Operational status": "Production",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 3",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP011",
+    "Name": "Application 11",
+    "Functional Description": "Description for application 11",
+    "Portfolio": "Portfolio 2",
+    "Operational status": "Development",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 4",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP012",
+    "Name": "Application 12",
+    "Functional Description": "Description for application 12",
+    "Portfolio": "Portfolio 3",
+    "Operational status": "Production",
+    "Vendor": "Vendor 1",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 1",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP013",
+    "Name": "Application 13",
+    "Functional Description": "Description for application 13",
+    "Portfolio": "Portfolio 4",
+    "Operational status": "Development",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 2",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP014",
+    "Name": "Application 14",
+    "Functional Description": "Description for application 14",
+    "Portfolio": "Portfolio 5",
+    "Operational status": "Production",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 3",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP015",
+    "Name": "Application 15",
+    "Functional Description": "Description for application 15",
+    "Portfolio": "Portfolio 1",
+    "Operational status": "Development",
+    "Vendor": "Vendor 1",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 4",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP016",
+    "Name": "Application 16",
+    "Functional Description": "Description for application 16",
+    "Portfolio": "Portfolio 2",
+    "Operational status": "Production",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 1",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP017",
+    "Name": "Application 17",
+    "Functional Description": "Description for application 17",
+    "Portfolio": "Portfolio 3",
+    "Operational status": "Development",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 2",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP018",
+    "Name": "Application 18",
+    "Functional Description": "Description for application 18",
+    "Portfolio": "Portfolio 4",
+    "Operational status": "Production",
+    "Vendor": "Vendor 1",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 3",
+    "Business Application Status": "Active"
+  },
+  {
+    "Business Application ID": "APP019",
+    "Name": "Application 19",
+    "Functional Description": "Description for application 19",
+    "Portfolio": "Portfolio 5",
+    "Operational status": "Development",
+    "Vendor": "Vendor 2",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 4",
+    "Business Application Status": "Inactive"
+  },
+  {
+    "Business Application ID": "APP020",
+    "Name": "Application 20",
+    "Functional Description": "Description for application 20",
+    "Portfolio": "Portfolio 1",
+    "Operational status": "Production",
+    "Vendor": "Vendor 3",
+    "Managed / Operated By": "IT Department",
+    "Owning Business": "Business 1",
+    "Business Application Status": "Active"
+  }
+]

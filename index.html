@@ -28,13 +28,15 @@
                 <div id="context-upload-status" class="mt-2 text-sm text-left"></div>
             </div>
             <div class="p-4 border border-gray-200 rounded-lg">
-                <h2 class="text-xl font-bold mb-2 text-left">Upload Configuration</h2>
+                <h2 class="text-xl font-bold mb-2 text-left">Upload Configuration <span id="config-upload-check" class="text-green-500"></span></h2>
                 <p class="text-sm text-gray-600 mb-4 text-left">Upload the application configuration file, called config.json, provided with the application.</p>
                 <input type="file" id="config-upload" accept=".json" class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer focus:outline-none">
                 <div id="config-upload-status" class="mt-2 text-sm text-left"></div>
             </div>
         </div>
-
+        <button id="continue-button" class="mt-8 px-8 py-4 bg-blue-600 text-white text-2xl font-bold rounded-lg shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50" style="display: none;">
+            Continue
+        </button>
     </div>
     <script src="./ajv.js"></script>
     <script src="./script.js"></script>

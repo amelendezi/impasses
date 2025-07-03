@@ -37,6 +37,23 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
 
+    let servicenowUploaded = false;
+    let contextUploaded = false;
+    let configUploaded = false;
+
+    const continueButton = document.getElementById('continue-button');
+    continueButton.addEventListener('click', () => {
+        window.location.href = 'reconciliation.html';
+    });
+
+    function updateContinueButtonVisibility() {
+        if (configUploaded && (servicenowUploaded || contextUploaded)) {
+            continueButton.style.display = 'block';
+        } else {
+            continueButton.style.display = 'none';
+        }
+    }
+
     document.getElementById('servicenow-upload').addEventListener('change', handleFileSelect);
     document.getElementById('context-upload').addEventListener('change', handleFileSelect);
     document.getElementById('config-upload').addEventListener('change', handleFileSelect);
@@ -61,19 +78,35 @@ document.addEventListener('DOMContentLoaded', function() {
                             uploadStatus.textContent = "File was correctly uploaded and complies with the expected format";
                             uploadStatus.className = "mt-2 text-sm text-green-600 text-left";
                             localStorage.setItem(event.target.id, JSON.stringify(jsonData, null, 2));
+                            servicenowUploaded = true;
                         } else {
                             uploadStatus.textContent = "File does not comply with the expected format: " + ajv.errorsText(validate.errors);
                             uploadStatus.className = "mt-2 text-sm text-red-600 text-left";
+                            servicenowUploaded = false;
                         }
-                    } else {
+                    } else if (event.target.id === 'config-upload') {
+                        localStorage.setItem(event.target.id, JSON.stringify(jsonData, null, 2));
+                        const primaryKey = jsonData.applicationPrimaryKey;
+                        uploadStatus.textContent = `${primaryKey} is the application unique identifier.`;
+                        uploadStatus.className = "mt-2 text-sm text-green-600 text-left";
+                        configUploaded = true;
+                    } else if (event.target.id === 'context-upload') {
                         localStorage.setItem(event.target.id, JSON.stringify(jsonData, null, 2));
                         uploadStatus.textContent = "File was correctly uploaded.";
                         uploadStatus.className = "mt-2 text-sm text-green-600 text-left";
+                        contextUploaded = true;
                     }
+
+                    updateContinueButtonVisibility();
 
                 } catch (error) {
                     uploadStatus.textContent = "Error parsing JSON file: " + error;
                     uploadStatus.className = "mt-2 text-sm text-red-600 text-left";
+                    // Reset flags on error
+                    if (event.target.id === 'servicenow-upload') servicenowUploaded = false;
+                    if (event.target.id === 'context-upload') contextUploaded = false;
+                    if (event.target.id === 'config-upload') configUploaded = false;
+                    updateContinueButtonVisibility();
                 }
             };
             reader.readAsText(file);
