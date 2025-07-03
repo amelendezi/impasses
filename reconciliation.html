@@ -10,6 +10,21 @@
 <body class="bg-gray-100">
     <div class="w-3/4 mx-auto mt-12 p-12 bg-white rounded-lg shadow-lg flex flex-col items-center text-center">
         <h1 class="text-5xl font-bold">Reconciliation</h1>
+        <div class="w-full mt-8 grid grid-cols-3 gap-4 text-center">
+            <div class="p-4 border border-gray-200 rounded-lg">
+                <h2 class="text-xl font-bold">Uploaded Applications</h2>
+                <p id="uploaded-count" class="text-3xl mt-2"></p>
+            </div>
+            <div class="p-4 border border-gray-200 rounded-lg">
+                <h2 class="text-xl font-bold">Matching Applications</h2>
+                <p id="matching-count" class="text-3xl mt-2"></p>
+            </div>
+            <div class="p-4 border border-gray-200 rounded-lg">
+                <h2 class="text-xl font-bold">State Applications</h2>
+                <p id="state-count" class="text-3xl mt-2"></p>
+            </div>
+        </div>
     </div>
+    <script src="./reconciliation.js"></script>
 </body>
 </html>

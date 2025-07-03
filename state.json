@@ -1,0 +1,27 @@
+{
+  "applications": [
+    {
+      "Business Application ID": "APP111",
+      "Name": "New Application 1",
+      "Functional Description": "Description for application 1",
+      "Portfolio": "Portfolio 2",
+      "Operational status": "Development",
+      "Vendor": "Vendor 2",
+      "Managed / Operated By": "IT Department",
+      "Owning Business": "Business 2",
+      "Business Application Status": "Inactive"
+    },
+    {
+      "Business Application ID": "APP222",
+      "Name": "New Application 2",
+      "Functional Description": "Description for application 2",
+      "Portfolio": "Portfolio 3",
+      "Operational status": "Production",
+      "Vendor": "Vendor 3",
+      "Managed / Operated By": "IT Department",
+      "Owning Business": "Business 3",
+      "Business Application Status": "Active"
+    }
+  ],
+  "assessmentProjects": []
+}
