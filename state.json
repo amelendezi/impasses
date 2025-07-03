@@ -21,6 +21,28 @@
       "Managed / Operated By": "IT Department",
       "Owning Business": "Business 3",
       "Business Application Status": "Active"
+    },
+    {
+      "Business Application ID": "APP003",
+      "Name": "Application 3",
+      "Functional Description": "Description for application 3",
+      "Portfolio": "Portfolio 4",
+      "Operational status": "Development",
+      "Vendor": "Vendor 1",
+      "Managed / Operated By": "IT Department",
+      "Owning Business": "Business 4",
+      "Business Application Status": "Inactive"
+    },
+    {
+      "Business Application ID": "APP004",
+      "Name": "Application 4",
+      "Functional Description": "Changed the functional description of the app.",
+      "Portfolio": "Portfolio 5",
+      "Operational status": "Production",
+      "Vendor": "Vendor 2",
+      "Managed / Operated By": "IT Department",
+      "Owning Business": "Business 1",
+      "Business Application Status": "Active"
     }
   ],
   "assessmentProjects": []
