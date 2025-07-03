@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Business Application ID": {
+        "type": "string"
+      },
+      "Name": {
+        "type": "string"
+      },
+      "Functional Description": {
+        "type": "string"
+      },
+      "Portfolio": {
+        "type": "string"
+      },
+      "Operational status": {
+        "type": "string"
+      },
+      "Vendor": {
+        "type": "string"
+      },
+      "Managed / Operated By": {
+        "type": "string"
+      },
+      "Owning Business": {
+        "type": "string"
+      },
+      "Business Application Status": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}
