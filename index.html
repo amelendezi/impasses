@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Landscape Assessments</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-4">Application Landscape Assessments</h1>
+        <p class="mb-8">
+            An application landscape assessment tool is a specialized instrument designed to systematically evaluate an organization's portfolio of applications. It enables users to define the scope of an assessment, selecting specific applications for review from a comprehensive list. For each application within the defined scope, the tool facilitates a detailed assessment that includes identifying the type of impact (e.g., financial, operational, reputational), assigning ownership for managing that impact, and estimating the expected cost associated with the application's lifecycle or any proposed changes. Additionally, the tool provides functionality for users to add comments and annotations, allowing for richer qualitative insights and context to be captured for each individual application assessment.
+        </p>
+
+        <div class="grid grid-cols-3 gap-4">
+            <div>
+                <label for="servicenow-upload" class="block mb-2 text-sm font-medium text-gray-900">Upload ServiceNow Application JSON</label>
+                <input type="file" id="servicenow-upload" accept=".json" class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer focus:outline-none">
+            </div>
+            <div>
+                <label for="context-upload" class="block mb-2 text-sm font-medium text-gray-900">Upload Saved Context JSON</label>
+                <input type="file" id="context-upload" accept=".json" class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer focus:outline-none">
+            </div>
+            <div>
+                <label for="config-upload" class="block mb-2 text-sm font-medium text-gray-900">Upload Application Configuration JSON</label>
+                <input type="file" id="config-upload" accept=".json" class="block w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 cursor-pointer focus:outline-none">
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <a href="reconciliation.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Reconciliation
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
